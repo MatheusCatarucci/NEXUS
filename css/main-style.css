@@ -1,0 +1,92 @@
+body {
+    background-color: #2c0036; /* fundo escuro roxo */
+    font-family: "Poppins";
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #9c27b0;
+}
+
+#formulario {
+    margin: 0 auto;
+    margin-top: 100px;
+    background: #f9f9f9;
+    width: 450px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 100px;
+}
+
+#formulario h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c0036; /* título em roxo escuro */
+}
+
+.campo {
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+#navbar {
+    background: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+#navbar ul {
+    list-style: none;
+    margin-left: 10px;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #2c0036; /* texto do label em roxo escuro */
+}
+
+input {
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    font-size: 15px;
+}
+
+input:focus {
+    outline: none;
+    border: 1.5px solid #9b59b6; /* roxo vibrante */
+    box-shadow: 0 0 6px #9b59b6;
+}
+
+button {
+    padding: 8px;
+    height: 40px;
+    border: none;
+    background: #9b59b6; /* botão roxo */
+    border-radius: 9px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    display: block;
+    margin: 30px auto 20px auto;
+    font-family: "Montserrat";
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background: #8e44ad; /* roxo mais fechado no hover */
+}
