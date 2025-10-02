@@ -1,0 +1,58 @@
+body {
+    background-color: #2c0036;
+    margin: 0;
+    font-family: "Poppins";
+    color: rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.navbar {
+    background: #f9f9f9;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#inicial {
+    width: 300px;
+    height: auto;
+    background-color: #9c27b0;
+    padding: 20px; /* padding interno controlado aqui */
+    margin: 75px auto;
+    border: 2px solid white;
+}
+
+/* Botão */
+#inicial button {
+    font-size: 20px;
+    background-color: #f9f9f9;
+    border: none;
+    border-radius: 9px;
+    height: 40px;
+    width: 75px;
+    cursor: pointer;
+    font-family: "Montserrat";
+}
+
+#inicial button:hover {
+    background: #f700ff;
+    color: #fff; /* texto branco para contraste */
+    box-shadow: 
+        0 0 10px #f700ff,
+        0 0 20px #f700ff,
+        0 0 40px #9b59b6,
+        0 0 60px #9b59b6;
+    transition: 0.2s ease-in-out;
+}
+
+/* Textos dentro do #inicial */
+#inicial h1,
+#inicial p {
+    margin: 0; /* remove margens padrão */
+    padding: 0; /* garante que não tenham padding extra */
+    color: #fff;/* cor branca para destacar no fundo roxo */
+}
